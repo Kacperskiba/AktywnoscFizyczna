@@ -38,7 +38,6 @@ Cały interfejs użytkownika został zbudowany przy użyciu Jetpack Compose – 
 * Dynamiczne aktualizacje UI w czasie rzeczywistym (np. statystyki podczas treningu)
 * Wykresy aktywności przy użyciu biblioteki Vico
 
-> *Rysunek 1: Ekran główny aplikacji – implementacja w Jetpack Compose*
 
 ### 2.2 Navigation Compose
 Nawigacja między ekranami wykorzystuje Navigation Compose z type-safe routes.
@@ -198,7 +197,7 @@ dependencies {
     
     // ... (pozostałe zależności testowe i UI)
 }
-
+```
 ### 5 Ekrany Aplikacji
 Kluczowe widoki aplikacji (tryb jasny/ciemny):
 
