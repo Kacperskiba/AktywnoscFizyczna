@@ -60,7 +60,10 @@ Nawigacja między ekranami wykorzystuje Navigation Compose z type-safe routes.
 | **PhotoGallery** | Galeria zdjęć z treningów |
 | **Settings** | Ustawienia aplikacji |
 
-> *Rysunek 2: Schemat nawigacji (Navigation Graph)*: Home -> [Activity, History, Settings]; History -> ActivityDetail -> PhotoGallery.
+| Schemat Nawigacji |
+| :---: |
+| <img src="screenshots/rysunek2.png" width="400"/> |
+| *Rysunek 2: Navigation Graph* |
 
 ### 2.3 Kotlin
 Aplikacja napisana w całości w języku Kotlin.
@@ -91,7 +94,10 @@ Aplikacja wykorzystuje wzorzec MVVM (Model-View-ViewModel) z UiState.
 | **Model** | ActivityEntity, DailyStepsEntity |
 | **Repository** | FitnessDatabase, DAOs |
 
-> *Rysunek 3: Diagram architektury MVVM*
+| Architektura MVVM |
+| :---: |
+| <img src="screenshots/rysunek3.png" width="400"/> |
+| *Rysunek 3: Architektura MVVM* |
 
 ### 2.5 Runtime Permissions
 Aplikacja poprawnie obsługuje uprawnienia runtime zgodnie z wytycznymi Androida.
@@ -192,3 +198,21 @@ dependencies {
     
     // ... (pozostałe zależności testowe i UI)
 }
+
+### 5 Ekrany Aplikacji
+Kluczowe widoki aplikacji (tryb jasny/ciemny):
+
+| Ekran Główny | Trening | Uprawnienia |
+| :---: | :---: | :---: |
+| <img src="screenshots/glowny.png" width="200"/> | <img src="screenshots/trening.png" width="200"/> | <img src="screenshots/uprawnienia.png" width="200"/> |
+| *Start* | *Aktywny Trening* | *Dialog Uprawnień* |
+
+| Historia | Szczegóły Treningu | Galeria |
+| :---: | :---: | :---: |
+| <img src="screenshots/historia.png" width="200"/> | <img src="screenshots/szczegoly.png" width="200"/> | <img src="screenshots/galeria.png" width="200"/> |
+| *Lista Historii* | *Szczegóły wpisu* | *Zdjęcia z trasy* |
+
+| Ustawienia |
+| :---: |
+| <img src="screenshots/ustawienia.png" width="200"/> |
+| *Konfiguracja* |
